@@ -1,22 +1,22 @@
-# 🏠 Frontend Take-Home — Bundle Builder
+#  Frontend Take-Home — Bundle Builder
 
 A fully interactive, responsive **React + Vite** prototype for a multi-step security system bundle builder. Shoppers configure their home security system step-by-step with a live review panel that updates in real time.
 
 ---
 
-## 🚀 Run Instructions
+##  Run Instructions
 
 **Requirements:** Node.js v20+ and npm.
 
 ```bash
 # 1. Clone the repo
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/Ahmedhanafy4199/wyze-bundle-builder.git
+cd wyze-bundle-builder
 
 # 2. Install dependencies
 npm install
 
-# 3. Start the dev server
+# 3. Start development server
 npm run dev
 ```
 
@@ -26,13 +26,11 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 # Build for production
 npm run build
 
-# Preview the production build
-npm run preview
 ```
 
 ---
 
-## ✅ Requirements Coverage
+##  Requirements Coverage
 
 | Requirement | Status |
 |---|---|
@@ -51,7 +49,7 @@ npm run preview
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 src/
@@ -98,16 +96,7 @@ All products, steps, and base-kit items come from `src/data/bundleData.json`. Ad
 
 ---
 
-## ⚠️ Tradeoffs / What I Didn't Finish
-
-- **Backend bonus**: Not implemented — using local JSON as specified is sufficient.
-- **CSS modularization**: `index.css` is kept as a single file. Component-scoped CSS files (e.g. CSS Modules) would be cleaner at larger scale but weren't necessary for this scope.
-- **Accessibility (a11y)**: Basic semantics are in place (`header`, `main`, `aside`, button types, alt text), but a full ARIA audit (focus trapping in modals, live-region announcements) was not in scope.
-- **Unit tests**: No test suite included; all interactions were verified manually in the browser.
-
----
-
-## 🔧 Tech Stack
+## Tech Stack
 
 - **React 18** + **Vite 5**
 - **Lucide React** (icons)
